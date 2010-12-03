@@ -1,0 +1,55 @@
+###############################################################################
+#
+#   Workflow
+#
+###############################################################################
+
+
+
+Naming convention for branches
+------------------------------
+    a2o                    <--- main branch of kernel config files
+    cmpny                  <--- main branch for certain company
+    cmpny/mchn             <--- machine specific branch
+
+
+
+Naming convention for config files
+----------------------------------
+    config64-2.6.35.5      <--- 64bit config for kernel version 2.6.35.5
+    config-2.6.35.5        <--- x86   config for kernel version 2.6.35.5
+
+
+
+Naming convention for kernels
+-----------------------------
+    kernel64-2.6.35.5-asdf33      <--- asdf33 is the signature of git commit
+    kernel-2.6.35.5-asdf34        <--- 32bit, asdf34 is the signature of git commit
+
+
+
+How to make changes to kernel
+-----------------------------
+- checkout appropriate branch
+- pull commits from a2o branch
+- create new config, don'commit just yet
+- compile kernel and test it
+- commit
+- push
+- if change should be adopted to other systems as well, merge it to a2o branch 
+    and push
+- other branches should be synced when appropriate kernel are upgraded
+
+
+
+How to port configuration to new kernel
+---------------------------------------
+- untar kernel
+- copy latest config64 (or config) to it
+- make menuconfig
+- save the configuration
+- move it to repo as config64-new.kernel.version.number
+- commit
+- push
+- start doing changes
+
