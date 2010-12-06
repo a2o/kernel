@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.36.1
-# Mon Dec  6 19:50:55 2010
+# Mon Dec  6 19:56:51 2010
 #
 CONFIG_64BIT=y
 # CONFIG_X86_32 is not set
@@ -374,7 +374,7 @@ CONFIG_ACPI_BLACKLIST_YEAR=0
 CONFIG_ACPI_PCI_SLOT=y
 CONFIG_X86_PM_TIMER=y
 CONFIG_ACPI_CONTAINER=y
-# CONFIG_ACPI_HOTPLUG_MEMORY is not set
+CONFIG_ACPI_HOTPLUG_MEMORY=y
 # CONFIG_ACPI_SBS is not set
 # CONFIG_ACPI_HED is not set
 # CONFIG_ACPI_APEI is not set
