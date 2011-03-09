@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/x86_64 2.6.37.3 Kernel Configuration
-# Wed Mar  9 11:31:59 2011
+# Wed Mar  9 12:37:06 2011
 #
 CONFIG_64BIT=y
 # CONFIG_X86_32 is not set
@@ -1140,7 +1140,7 @@ CONFIG_NETDEV_1000=y
 CONFIG_E1000=y
 CONFIG_E1000E=y
 # CONFIG_IP1000 is not set
-# CONFIG_IGB is not set
+CONFIG_IGB=y
 # CONFIG_IGBVF is not set
 # CONFIG_NS83820 is not set
 # CONFIG_HAMACHI is not set
