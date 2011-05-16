@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/x86_64 2.6.37.3 Kernel Configuration
-# Sat Apr  9 01:13:59 2011
+# Mon May 16 02:11:21 2011
 #
 CONFIG_64BIT=y
 # CONFIG_X86_32 is not set
@@ -1136,7 +1136,7 @@ CONFIG_E100=y
 # CONFIG_FEALNX is not set
 # CONFIG_NATSEMI is not set
 # CONFIG_NE2K_PCI is not set
-# CONFIG_8139CP is not set
+CONFIG_8139CP=y
 CONFIG_8139TOO=y
 # CONFIG_8139TOO_PIO is not set
 # CONFIG_8139TOO_TUNE_TWISTER is not set
