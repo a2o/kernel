@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/x86_64 2.6.39.3 Kernel Configuration
-# Wed Jul 13 17:51:38 2011
+# Thu Jul 28 02:50:55 2011
 #
 CONFIG_64BIT=y
 # CONFIG_X86_32 is not set
@@ -2287,7 +2287,7 @@ CONFIG_KVM_ASYNC_PF=y
 CONFIG_VIRTUALIZATION=y
 CONFIG_KVM=y
 CONFIG_KVM_INTEL=y
-# CONFIG_KVM_AMD is not set
+CONFIG_KVM_AMD=y
 # CONFIG_KVM_MMU_AUDIT is not set
 CONFIG_VHOST_NET=y
 CONFIG_VIRTIO=y
