@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
-# Linux/x86_64 2.6.39.3 Kernel Configuration
-# Sat Oct 29 16:06:48 2011
+# Linux/x86_64 2.6.39.4 Kernel Configuration
+# Wed Nov 30 13:41:52 2011
 #
 CONFIG_64BIT=y
 # CONFIG_X86_32 is not set
@@ -1138,7 +1138,16 @@ CONFIG_NET_ETHERNET=y
 # CONFIG_NET_VENDOR_3COM is not set
 # CONFIG_ETHOC is not set
 # CONFIG_DNET is not set
-# CONFIG_NET_TULIP is not set
+CONFIG_NET_TULIP=y
+# CONFIG_DE2104X is not set
+CONFIG_TULIP=y
+# CONFIG_TULIP_MWI is not set
+# CONFIG_TULIP_MMIO is not set
+# CONFIG_TULIP_NAPI is not set
+# CONFIG_DE4X5 is not set
+# CONFIG_WINBOND_840 is not set
+# CONFIG_DM9102 is not set
+# CONFIG_ULI526X is not set
 # CONFIG_HP100 is not set
 # CONFIG_IBM_NEW_EMAC_ZMII is not set
 # CONFIG_IBM_NEW_EMAC_RGMII is not set
