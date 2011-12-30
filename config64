@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/x86_64 2.6.39.4 Kernel Configuration
-# Fri Dec 16 20:14:16 2011
+# Fri Dec 30 17:16:14 2011
 #
 CONFIG_64BIT=y
 # CONFIG_X86_32 is not set
@@ -1135,7 +1135,7 @@ CONFIG_FUSION_LOGGING=y
 # CONFIG_MACINTOSH_DRIVERS is not set
 CONFIG_NETDEVICES=y
 # CONFIG_DUMMY is not set
-# CONFIG_BONDING is not set
+CONFIG_BONDING=y
 # CONFIG_MACVLAN is not set
 # CONFIG_EQUALIZER is not set
 CONFIG_TUN=y
