@@ -17,14 +17,14 @@ Naming convention for branches
 Naming convention for config files
 ----------------------------------
     config64-2.6.35.5      <--- 64bit config for kernel version 2.6.35.5
-    config-2.6.35.5        <--- x86   config for kernel version 2.6.35.5
+    config32-2.6.35.5      <--- x86   config for kernel version 2.6.35.5
 
 
 
 Naming convention for kernels
 -----------------------------
     kernel64-2.6.35.5-asdf33      <--- asdf33 is the signature of git commit
-    kernel-2.6.35.5-asdf34        <--- 32bit, asdf34 is the signature of git commit
+    kernel32-2.6.35.5-asdf34      <--- 32bit, asdf34 is the signature of git commit
 
 
 
