@@ -48,8 +48,12 @@ How to port configuration to new kernel
 - copy latest config64 (or config) to it
 - make menuconfig
 - save the configuration
-- move it to repo as config64-new.kernel.version.number
+- compare old and new config:
+---> sort the config64 in repo (commit is not needed, but use scripts)
+---> sort the .config in kernel source
+---> make diff of the sorted files
+---> check what is changed, if anything relevant, fix
+- move it to repo as config64
 - commit
 - push
-- start doing changes
-
+- start doing changes, wash, rinse, repeat:)
